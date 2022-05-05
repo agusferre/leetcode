@@ -1,5 +1,6 @@
 class Solution:
     def longestPalindrome(self, s: str) -> str:
+        #OUT FOR TIME COMPLEXITY
         map = {}
         current = s[0]
         for i, l in enumerate(s):
